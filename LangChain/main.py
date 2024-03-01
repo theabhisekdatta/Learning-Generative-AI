@@ -6,6 +6,7 @@ from langchain_openai import ChatOpenAI
 
 import streamlit as st
 
+
 os.environ["OPENAI_API_KEY"] = openai_key
 
 # Streamlit framework
@@ -15,7 +16,7 @@ input_text = st.text_input("Search the topic you want")
 
 # OpenAI LLMs
 
-llm = ChatOpenAI(temperature=0.8)
+llm = ChatOpenAI()
 
 if input_text:
-    st.write(llm(input_text))
+    st.write(llm.invoke(input_text))

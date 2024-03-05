@@ -1,0 +1,4 @@
+1. Calling OpenAI via Langchain (from langchain_openai import ChatOpenAI)
+2. Prompt (from langchain_core.prompts import ChatPromptTemplate)
+3. When we use more than one prompt we use "Simple Sequential Chain"( Problem is it will return only last results),
+4. To solve the issue we use "Sequential  Chain"

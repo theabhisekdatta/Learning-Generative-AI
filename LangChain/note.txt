@@ -2,4 +2,13 @@
 2. Prompt (from langchain_core.prompts import ChatPromptTemplate)
 3. When we use more than one prompt we use "Simple Sequential Chain"( Problem is it will return only last results),
 4. To solve the issue we use "Sequential  Chain"
-5. To remember the conversation we need to create "Memory Chain"
+5. If we want to keep the results in the memory, Langchain provides  "Memory Chain" for keeping the information in the memory.
+
+
+
+---- END TO END APP and Deploying Hugging Face Space.----
+1. Env set up and OpenAI Key
+2. Building simple application with
+    --> LLM's and Chatmodels
+    --> Prompt Templates
+    --> Output Parser (Prompt template + LLM + OutputParser)

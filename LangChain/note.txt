@@ -7,8 +7,8 @@
 
 
 ---- END TO END APP and Deploying Hugging Face Space.----
-1. Env set up and OpenAI Key
-2. Building simple application with
-    --> LLM's and Chatmodels
+1. Env set up and OpenAI Key -- Done 
+2. Building simple application with 
+    --> LLM's and Chatmodels --- Done
     --> Prompt Templates
     --> Output Parser (Prompt template + LLM + OutputParser)

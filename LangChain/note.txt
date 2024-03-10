@@ -11,6 +11,8 @@
 
 5. Chatmodels with OpenAI LLM (need to Explain this)
 
+6. Prompt template + LLM + Output Parse (need to Explain this)
+
 // If we want to keep the results in the memory, Langchain provides  "Memory Chain" for keeping the information in the memory.
 
 

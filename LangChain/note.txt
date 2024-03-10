@@ -1,9 +1,17 @@
 1. Calling OpenAI via Langchain (from langchain_openai import ChatOpenAI)
-2. Prompt (from langchain_core.prompts import ChatPromptTemplate)
-3. When we use more than one prompt we use "Simple Sequential Chain"( Problem is it will return only last results),
-4. To solve the issue we use "Sequential  Chain"
------Need to understand simple and Sequential chain again with code
-5. If we want to keep the results in the memory, Langchain provides  "Memory Chain" for keeping the information in the memory.
+
+2. Prompt (from langchain.prompts import PromptTemplate)
+--> to run the prompt we need CHAIN with the LLM(OpenAI LLM) (from langchain.chains import LLMChain)
+
+3. When we use more than one prompt we use "Simple Sequential Chain" (from langchain.chains import SimpleSequentialChain) 
+--> Problem is it will return only last results.
+
+4. To solve the issue we use "Sequential  Chain" (from langchain.chains import SequentialChain)
+--> This will show all the results of the chains. Lets say I have 2 chains then it will show all the Output of the chain.
+
+5. Chatmodels with OpenAI LLM (need to Explain this)
+
+// If we want to keep the results in the memory, Langchain provides  "Memory Chain" for keeping the information in the memory.
 
 
 

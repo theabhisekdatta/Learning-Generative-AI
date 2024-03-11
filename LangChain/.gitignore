@@ -1,5 +1,2 @@
 constant.py
 huggingface_Api.py
-langchain_firstrun.py
-langchain_prompt.py
-main.py

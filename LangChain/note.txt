@@ -24,6 +24,10 @@ Refer langchain.ipynb
 ---- We will create 3 chains (output_parser_chain = chatprompt | chat_llm | Commaseperatedoutput() )
 
 
+7. Vector Search with Langchain,Cassandra,Astra DB,Vector Database
+__ Need to do hands on
+
+
 // If we want to keep the results in the memory, Langchain provides  "Memory Chain" for keeping the information in the memory.
 
 

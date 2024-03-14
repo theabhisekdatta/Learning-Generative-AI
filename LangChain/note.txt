@@ -1,3 +1,5 @@
+Refer langchain.ipynb
+
 1. Calling OpenAI via Langchain (from langchain_openai import ChatOpenAI)
 
 2. Prompt (from langchain.prompts import PromptTemplate)
@@ -9,9 +11,18 @@
 4. To solve the issue we use "Sequential  Chain" (from langchain.chains import SequentialChain)
 --> This will show all the results of the chains. Lets say I have 2 chains then it will show all the Output of the chain.
 
-5. Chatmodels with OpenAI LLM (need to Explain this)
+5. Chatmodels with OpenAI LLM (Refer langchain.ipynb)
+-- There are 3 schemas we need to looking at: 
+--- HumanMessage(Human Input), 
+--- SystemMessage(Instruction to the chatbot),
+--- AIMessage (Output of the chatbot)
 
-6. Prompt template + LLM + Output Parse (need to Explain this)
+6. Prompt template + LLM + Output Parse (Refer langchain.ipynb)
+---  PromptTemplate --> Here chatprompt is the prompt along with system and human message
+--- LLM --> OpenAI LLM or Hugging Face Models --> chatllm is the chat llm from openai
+--- Output Parse --> I want to modify any output of an llm before hand --> commaseperatedoutput is the class from the Output parser
+---- We will create 3 chains (output_parser_chain = chatprompt | chat_llm | Commaseperatedoutput() )
+
 
 // If we want to keep the results in the memory, Langchain provides  "Memory Chain" for keeping the information in the memory.
 

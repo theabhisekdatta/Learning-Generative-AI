@@ -24,8 +24,17 @@ Refer langchain.ipynb
 ---- We will create 3 chains (output_parser_chain = chatprompt | chat_llm | Commaseperatedoutput() )
 
 
-7. Vector Search with Langchain,Cassandra,Astra DB,Vector Database
+7. Vector Search with Langchain,Cassandra,Astra DB,Vector Database (Refer Vector_search_PDFQuery_LangChain.ipynb)
 __ Need to do hands on
+    What is Vector Search???
+--- When ever we need to Q and A from the huge PDF we need vector search
+--- First reading a huge pdf let say and convert to text, we will then convert into various text chunks.
+--- We will convert the chucks into Text Embeddings with the help of OpenAI Embeddings (Text to Vectors)
+--- We will store all the Text Embeddings into some kind of database (Cassandra DB) Create a Database.
+--- Cassandra DB is a nosql database made by apache, it has scalability and high availablity.
+--- From the Cassandra DB we can perform vector search.
+--- So a human whenever text query then it will perform a similarity and Embeddings and will get the response
+
 
 
 // If we want to keep the results in the memory, Langchain provides  "Memory Chain" for keeping the information in the memory.

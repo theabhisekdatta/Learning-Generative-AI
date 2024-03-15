@@ -26,7 +26,7 @@ Refer langchain.ipynb
 
 7. Vector Search with Langchain,Cassandra,Astra DB,Vector Database (Refer Vector_search_PDFQuery_LangChain.ipynb)
 __ Need to do hands on
-    What is Vector Search???
+    What is Vector Search????
 --- When ever we need to Q and A from the huge PDF we need vector search
 --- First reading a huge pdf let say and convert to text, we will then convert into various text chunks.
 --- We will convert the chucks into Text Embeddings with the help of OpenAI Embeddings (Text to Vectors)

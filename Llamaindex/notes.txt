@@ -1,0 +1,5 @@
+What exactly Llamaindex?
+-- Llamaindex is a simple, flexible data framework for connecting custom data sources to large language model
+
+
+What is the difference between Llamaindex and LangChain?

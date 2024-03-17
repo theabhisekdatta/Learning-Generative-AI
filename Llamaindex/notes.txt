@@ -1,5 +1,17 @@
 What exactly Llamaindex?
 -- Llamaindex is a simple, flexible data framework for connecting custom data sources to large language model
+-- Connecting data source to Large Language model, this is where Llamaindex plays an important role.
+-- data source to performing indexing. we then able to query from the index.
+-- Can be use in:
+    Document Q and A
+    Data Augmented Chatbot
+    Knowledge Agents 
+    Structured Analysis
 
+-- Llamaindex provides the key tools to augment our LLM Application with data
+    Data Ingestion
+    Data indexing (Vector store)
+    Query Interface (Augmentated Response)
 
+-- Connect our unstructured, structured or semi structured data sources.
 What is the difference between Llamaindex and LangChain?
